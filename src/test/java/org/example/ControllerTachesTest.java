@@ -102,6 +102,5 @@ public class ControllerTachesTest {
                         "Description : description test 2\n" +
                         "Durée : 2.5h", outputStreamCaptor.toString().trim().replaceAll("\\r", ""));
 
-        Assertions.assertTrue(true);
     }
 }

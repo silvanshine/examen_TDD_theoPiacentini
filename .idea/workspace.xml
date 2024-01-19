@@ -7,12 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="suppression d'App, ajout de javadoc pour les méthodes de test">
+    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="ajout de commentaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GestionTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GestionTachesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "silvanshine"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f2bf9339-b09b-4b82-a585-879c47dd143e" />
+        <option name="url" value="https://github.com/silvanshine/examen_TDD_theoPiacentini.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -69,7 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in examen_TDD_theoPiacentini">
+  <component name="RunManager" selected="JUnit.ProjetIntegrationTest.testVerifierTache">
     <configuration name="All in examen_TDD_theoPiacentini" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen_TDD_theoPiacentini" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,10 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjetIntegrationTest.testVerifierTache" />
         <item itemvalue="JUnit.All in examen_TDD_theoPiacentini" />
         <item itemvalue="JUnit.ControllerTachesTest" />
         <item itemvalue="JUnit.ProjetIntegrationTest" />
-        <item itemvalue="JUnit.ProjetIntegrationTest.testVerifierTache" />
         <item itemvalue="JUnit.ControllerTachesTest.testAfficheTache" />
       </list>
     </recent_temporary>
@@ -162,7 +175,7 @@
       <workItem from="1705657919828" duration="1722000" />
       <workItem from="1705659664583" duration="1308000" />
       <workItem from="1705662812654" duration="2553000" />
-      <workItem from="1705667238192" duration="1844000" />
+      <workItem from="1705667238192" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -212,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705668538539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ajout de commentaires">
+      <option name="closed" value="true" />
+      <created>1705669115438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669115438</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +257,8 @@
     <MESSAGE value="fin de la plupart des tests" />
     <MESSAGE value="fin des tests" />
     <MESSAGE value="suppression d'App, ajout de javadoc pour les méthodes de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="suppression d'App, ajout de javadoc pour les méthodes de test" />
+    <MESSAGE value="ajout de commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de commentaires" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

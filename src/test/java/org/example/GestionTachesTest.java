@@ -10,16 +10,19 @@ public class GestionTachesTest {
      * Test de la méthode verifierTache
      */
     @Test
-    void testVerifierTache()
-        {
+    void testVerifierTache() {
+        // Création d'un projet et d'une gestion de tâches test.
         Projet projet = new Projet("projet test");
         GestionTaches gestionTaches = new GestionTaches(projet);
 
+        // Ajout d'une tâche test.
         String expectedTacheTitle = "tache test";
         gestionTaches.ajouterTache(expectedTacheTitle, "description test");
 
+        // Vérification que la tâche a bien été ajoutée.
         Assertions.assertTrue(gestionTaches.verifierTache(expectedTacheTitle));
 
+        // Check que la vérification d'une tâche inexistante retourne false.
         Assertions.assertFalse(gestionTaches.verifierTache("tache inexistante"));
 
     }
