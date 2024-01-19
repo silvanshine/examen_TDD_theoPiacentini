@@ -46,6 +46,7 @@ public class Tache {
 
     public void setDuree(double duree) {
         if (duree < 0) {
+            // si la durée est négative, on lève une exception
             throw new IllegalArgumentException("La durée ne peut pas être négative");
         }
         this.duree = duree;

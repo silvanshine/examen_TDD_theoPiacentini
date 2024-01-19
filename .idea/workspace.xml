@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="ajout de commentaires et du code coverage">
+    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="ajout de commentaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControllerTaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControllerTaches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GestionTaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GestionTaches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,9 @@
         <option name="url" value="https://github.com/silvanshine/examen_TDD_theoPiacentini.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -171,7 +176,7 @@
       <workItem from="1705659664583" duration="1308000" />
       <workItem from="1705662812654" duration="2553000" />
       <workItem from="1705667238192" duration="2558000" />
-      <workItem from="1705669854173" duration="182000" />
+      <workItem from="1705669854173" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -245,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705669706579</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ajout de commentaires">
+      <option name="closed" value="true" />
+      <created>1705670049304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705670049304</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,9 +282,9 @@
     <MESSAGE value="fin de la plupart des tests" />
     <MESSAGE value="fin des tests" />
     <MESSAGE value="suppression d'App, ajout de javadoc pour les méthodes de test" />
-    <MESSAGE value="ajout de commentaires" />
     <MESSAGE value="ajout de commentaires et du code coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de commentaires et du code coverage" />
+    <MESSAGE value="ajout de commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de commentaires" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

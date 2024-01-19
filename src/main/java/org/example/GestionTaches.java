@@ -14,6 +14,10 @@ public class GestionTaches {
         this.projet.getTaches().add(nouvelleTache);
     }
 
+    /** Complète une tâche
+     * @param titre titre de la tâche à compléter
+     * @return true si la tâche a été complétée, false sinon (elle n'existe pas)
+     */
     public boolean completerTache(String titre) {
         for (Tache tache : this.projet.getTaches()) {
             if (tache.getTitre().equals(titre)) {
@@ -24,6 +28,10 @@ public class GestionTaches {
         return false;
     }
 
+    /** Vérifie si une tâche existe
+     * @param titre titre de la tâche à vérifier
+     * @return true si la tâche existe, false sinon
+     */
     public boolean verifierTache(String titre) {
         for (Tache tache : this.projet.getTaches()) {
             if (tache.getTitre().equals(titre)) {
