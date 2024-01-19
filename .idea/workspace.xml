@@ -10,13 +10,14 @@
     <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="ajout de commentaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GestionTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GestionTachesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\theop\IdeaProjects\examen_TDD_theoPiacentini\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,9 +65,11 @@
     "JUnit.GestionTachesTest.testAjouterTache.executor": "Run",
     "JUnit.GestionTachesTest.testCompleterTache.executor": "Run",
     "JUnit.GestionTachesTest.testVerifierTache.executor": "Run",
+    "JUnit.ProjetIntegrationTest.testVerifierTache.executor": "Coverage",
     "JUnit.ProjetTest.executor": "Run",
     "JUnit.ProjetTest.testVerifierTache.executor": "Run",
     "JUnit.UtilsTest.testCalculerDureeTotale.executor": "Run",
+    "JUnit.java in examen_TDD_theoPiacentini.executor": "Coverage",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,7 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProjetIntegrationTest.testVerifierTache">
+  <component name="RunManager" selected="JUnit.java in examen_TDD_theoPiacentini">
     <configuration name="All in examen_TDD_theoPiacentini" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen_TDD_theoPiacentini" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,22 +105,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ControllerTachesTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControllerTachesTest.testAfficheTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="examen_TDD_theoPiacentini" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ControllerTachesTest" />
-      <option name="METHOD_NAME" value="testAfficheTache" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in examen_TDD_theoPiacentini" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen_TDD_theoPiacentini" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in examen_TDD_theoPiacentini" />
         <item itemvalue="JUnit.ProjetIntegrationTest.testVerifierTache" />
         <item itemvalue="JUnit.All in examen_TDD_theoPiacentini" />
         <item itemvalue="JUnit.ControllerTachesTest" />
         <item itemvalue="JUnit.ProjetIntegrationTest" />
-        <item itemvalue="JUnit.ControllerTachesTest.testAfficheTache" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +170,7 @@
       <workItem from="1705657919828" duration="1722000" />
       <workItem from="1705659664583" duration="1308000" />
       <workItem from="1705662812654" duration="2553000" />
-      <workItem from="1705667238192" duration="2133000" />
+      <workItem from="1705667238192" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -233,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705669115438</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ajout de commentaires">
+      <option name="closed" value="true" />
+      <created>1705669441196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669441196</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,5 +266,11 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/examen_TDD_theoPiacentini$ProjetIntegrationTest_testVerifierTache.ic" NAME="ProjetIntegrationTest.testVerifierTache Coverage Results" MODIFIED="1705669412585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/examen_TDD_theoPiacentini$java_in_examen_TDD_theoPiacentini.ic" NAME="java in examen_TDD_theoPiacentini Coverage Results" MODIFIED="1705669501536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
