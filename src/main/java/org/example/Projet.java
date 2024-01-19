@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Projet {
-    String nom;
-    List<Tache> taches = new ArrayList<>() ;
+    private String nom;
+    private List<Tache> taches = new ArrayList<>();
+
+    private GestionTaches gestionTaches = new GestionTaches(this);
+
 
     public Projet(String nom) {
         this.nom = nom;
     }
 
-    int calculerDureeTotale(List<Tache> taches) {
-        return 0;
-    }
 
     public String getNom() {
         return nom;
@@ -29,5 +29,21 @@ public class Projet {
 
     public void setTaches(List<Tache> taches) {
         this.taches = taches;
+    }
+
+    public void ajouterTache(String titre, String description) {
+        this.gestionTaches.ajouterTache(titre, description);
+    }
+
+    public boolean completerTache(String titre) {
+        return this.gestionTaches.completerTache(titre);
+    }
+
+    public boolean verifierTache(String titre) {
+        return this.gestionTaches.verifierTache(titre);
+    }
+
+    public GestionTaches getGestionTaches() {
+        return this.gestionTaches;
     }
 }

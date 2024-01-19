@@ -2,9 +2,9 @@ package org.example;
 
 public class Tache {
 
-    int duree = 0;
-    String titre;
-    String description;
+    private double duree = 0;
+    private final String titre;
+    private final String description;
 
     boolean estCompletee = false;
 
@@ -13,7 +13,7 @@ public class Tache {
         this.description = description;
     }
 
-    public Tache(String titre, String description,  int duree) {
+    public Tache(String titre, String description, double duree) {
         this.duree = duree;
         this.titre = titre;
         this.description = description;
@@ -28,4 +28,19 @@ public class Tache {
     }
 
 
+    public double getDuree() {
+        return duree;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getNom() {
+        return titre;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
 }

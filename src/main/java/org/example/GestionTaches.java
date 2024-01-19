@@ -1,7 +1,5 @@
 package org.example;
 
-import javax.management.openmbean.TabularType;
-
 public class GestionTaches {
     Projet projet;
 
@@ -15,12 +13,21 @@ public class GestionTaches {
     }
 
     public boolean completerTache(String titre) {
-
+        for (Tache tache : this.projet.getTaches()) {
+            if (tache.getTitre().equals(titre)) {
+                tache.estCompletee = true;
+                return true;
+            }
+        }
         return false;
     }
 
     public boolean verifierTache(String titre) {
-
+        for (Tache tache : this.projet.getTaches()) {
+            if (tache.getTitre().equals(titre)) {
+                return true;
+            }
+        }
         return false;
     }
 }
