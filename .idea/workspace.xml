@@ -7,17 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="fin de la plupart des tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" afterDir="false" />
+    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="fin des tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControllerTaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControllerTaches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GestionTaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GestionTaches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Projet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProjetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +161,7 @@
       <workItem from="1705657919828" duration="1722000" />
       <workItem from="1705659664583" duration="1308000" />
       <workItem from="1705662812654" duration="2553000" />
-      <workItem from="1705667238192" duration="1082000" />
+      <workItem from="1705667238192" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -201,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705666004787</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fin des tests">
+      <option name="closed" value="true" />
+      <created>1705668356957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705668356958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +225,8 @@
     <MESSAGE value="definition des objets de l'énoncé" />
     <MESSAGE value="definition des objets de test" />
     <MESSAGE value="fin de la plupart des tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin de la plupart des tests" />
+    <MESSAGE value="fin des tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin des tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

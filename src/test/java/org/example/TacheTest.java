@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertThrows;
 
 public class TacheTest {
+    /**
+     * Test du setter de la durée
+     */
     @Test
     void testSetDuree() {
         Tache tache = new Tache("tache test", "description test");

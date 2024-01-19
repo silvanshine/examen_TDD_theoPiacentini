@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 
 public class ProjetIntegrationTest {
 
+    /**
+     * Test de la méthode verifierTache
+     */
     @Test
     void testVerifierTache() {
         Projet projet = new Projet("projet test");
@@ -20,6 +23,9 @@ public class ProjetIntegrationTest {
 
     }
 
+    /**
+     * Test de la méthode completerTache
+     */
     @Test
     void testCompleterTache() {
         Projet projet = new Projet("projet test");
@@ -37,6 +43,9 @@ public class ProjetIntegrationTest {
         Assertions.assertEquals(projet.getTaches(), projet.getGestionTaches().getTaches());
     }
 
+    /**
+     * Test de la méthode ajouterTache
+     */
     @Test
     void testAjouterTache() {
         Projet projet = new Projet("projet test");

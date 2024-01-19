@@ -25,6 +25,9 @@ public class ControllerTachesTest {
     }
 
 
+    /**
+     * Test l'affichage d'une tâche.
+     */
     @Test
     void testAfficheTache() {
         ArrayList<Tache> tachesTest = new ArrayList<>();
@@ -42,6 +45,9 @@ public class ControllerTachesTest {
                         "Durée : 1.0h", outputStreamCaptor.toString().trim().replaceAll("\\r", ""));
     }
 
+    /**
+     * Test l'affichage d'une liste de tâches.
+     */
     @Test
     void testAfficheListeTaches() {
 

@@ -7,6 +7,9 @@ import java.util.ArrayList;
 
 public class UtilsTest {
 
+    /**
+     * Test de la méthode calculerDureeTotale
+     */
     @Test
     void testCalculerDureeTotale() {
         ArrayList<Tache> tachesTest = new ArrayList<>();

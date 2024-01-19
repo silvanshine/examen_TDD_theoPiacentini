@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 public class GestionTachesTest {
 
+    /**
+     * Test de la méthode verifierTache
+     */
     @Test
     void testVerifierTache() {
         Projet projet = new Projet("projet test");
@@ -20,6 +23,9 @@ public class GestionTachesTest {
 
     }
 
+    /**
+     * Test de la méthode completerTache
+     */
     @Test
     void testCompleterTache() {
         Projet projet = new Projet("projet test");
@@ -36,6 +42,9 @@ public class GestionTachesTest {
         Assertions.assertFalse(gestionTaches.completerTache("tache inexistante"));
     }
 
+    /**
+     * Test de la méthode ajouterTache
+     */
     @Test
     void testAjouterTache() {
         Projet projet = new Projet("projet test");
