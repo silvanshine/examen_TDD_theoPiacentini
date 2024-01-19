@@ -48,13 +48,18 @@ public class ProjetIntegrationTest {
      */
     @Test
     void testAjouterTache() {
+
+        // Création d'un projet et d'une gestion de tâches
         Projet projet = new Projet("projet test");
         GestionTaches gestionTaches = new GestionTaches(projet);
 
+        // Ajout d'une tâche test
         gestionTaches.ajouterTache("tache test", "description test");
 
+        // Vérification que la tâche a bien été ajoutée
         Assertions.assertEquals("tache test", gestionTaches.projet.getTaches().get(0).getTitre());
 
+        // Vérifie que la liste de tâches du projet est bien la même que celle de la gestion de tâches
         Assertions.assertEquals(projet.getTaches(), projet.getGestionTaches().getTaches());
     }
 }
