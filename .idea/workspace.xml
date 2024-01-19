@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="ajout de commentaires">
+    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="ajout de commentaires et du code coverage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "silvanshine"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;silvanshine&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -55,36 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in examen_TDD_theoPiacentini.executor": "Run",
-    "JUnit.ControllerTachesTest.executor": "Run",
-    "JUnit.ControllerTachesTest.testAfficheListeTaches.executor": "Run",
-    "JUnit.ControllerTachesTest.testAfficheTache.executor": "Run",
-    "JUnit.GestionTachesTest.executor": "Run",
-    "JUnit.GestionTachesTest.testAjouterTache.executor": "Run",
-    "JUnit.GestionTachesTest.testCompleterTache.executor": "Run",
-    "JUnit.GestionTachesTest.testVerifierTache.executor": "Run",
-    "JUnit.ProjetIntegrationTest.testVerifierTache.executor": "Coverage",
-    "JUnit.ProjetTest.executor": "Run",
-    "JUnit.ProjetTest.testVerifierTache.executor": "Run",
-    "JUnit.UtilsTest.testCalculerDureeTotale.executor": "Run",
-    "JUnit.java in examen_TDD_theoPiacentini.executor": "Coverage",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in examen_TDD_theoPiacentini.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerTachesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerTachesTest.testAfficheListeTaches.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerTachesTest.testAfficheTache.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GestionTachesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GestionTachesTest.testAjouterTache.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GestionTachesTest.testCompleterTache.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GestionTachesTest.testVerifierTache.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjetIntegrationTest.testVerifierTache.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ProjetTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjetTest.testVerifierTache.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UtilsTest.testCalculerDureeTotale.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in examen_TDD_theoPiacentini.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.java in examen_TDD_theoPiacentini">
     <configuration name="All in examen_TDD_theoPiacentini" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen_TDD_theoPiacentini" />
@@ -170,7 +170,8 @@
       <workItem from="1705657919828" duration="1722000" />
       <workItem from="1705659664583" duration="1308000" />
       <workItem from="1705662812654" duration="2553000" />
-      <workItem from="1705667238192" duration="2375000" />
+      <workItem from="1705667238192" duration="2558000" />
+      <workItem from="1705669854173" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -236,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705669441196</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajout de commentaires et du code coverage">
+      <option name="closed" value="true" />
+      <created>1705669706579</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669706579</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +270,8 @@
     <MESSAGE value="fin des tests" />
     <MESSAGE value="suppression d'App, ajout de javadoc pour les méthodes de test" />
     <MESSAGE value="ajout de commentaires" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de commentaires" />
+    <MESSAGE value="ajout de commentaires et du code coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de commentaires et du code coverage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
