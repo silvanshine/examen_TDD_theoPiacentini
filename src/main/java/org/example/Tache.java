@@ -2,17 +2,30 @@ package org.example;
 
 public class Tache {
 
-    int duree;
+    int duree = 0;
+    String titre;
+    String description;
 
-    public Tache(int duree) {
+    boolean estCompletee = false;
+
+    public Tache(String titre, String description) {
+        this.titre = titre;
+        this.description = description;
+    }
+
+    public Tache(String titre, String description,  int duree) {
         this.duree = duree;
+        this.titre = titre;
+        this.description = description;
     }
 
-    public int getDuree() {
-        return duree;
+    public boolean isEstCompletee() {
+        return estCompletee;
     }
 
-    public void setDuree(int duree) {
-        this.duree = duree;
+    public void setEstCompletee(boolean estCompletee) {
+        this.estCompletee = estCompletee;
     }
+
+
 }

@@ -22,4 +22,12 @@ public class Projet {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
+    public List<Tache> getTaches() {
+        return taches;
+    }
+
+    public void setTaches(List<Tache> taches) {
+        this.taches = taches;
+    }
 }
