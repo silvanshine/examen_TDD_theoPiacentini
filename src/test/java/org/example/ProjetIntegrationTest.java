@@ -3,6 +3,9 @@ package org.example;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe de test d'intégration du projet
+ */
 public class ProjetIntegrationTest {
 
     /**

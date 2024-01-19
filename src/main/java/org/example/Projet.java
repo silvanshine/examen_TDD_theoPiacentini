@@ -3,6 +3,9 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Classe représentant un projet
+ */
 public class Projet {
 
     private String nom;

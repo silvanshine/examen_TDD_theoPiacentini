@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * Classe représentant une tâche
+ */
 public class Tache {
 
     private double duree = 0;

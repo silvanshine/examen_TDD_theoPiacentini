@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.List;
 
+/**
+ * Classe Gérant les tâches d'un projet
+ */
 public class GestionTaches {
     final Projet projet;
 
