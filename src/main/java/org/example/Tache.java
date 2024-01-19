@@ -19,7 +19,7 @@ public class Tache {
         this.description = description;
     }
 
-    public boolean isEstCompletee() {
+    public boolean getEstCompletee() {
         return estCompletee;
     }
 
@@ -42,5 +42,12 @@ public class Tache {
 
     public String getTitre() {
         return titre;
+    }
+
+    public void setDuree(double duree) {
+        if (duree < 0) {
+            throw new IllegalArgumentException("La durée ne peut pas être négative");
+        }
+        this.duree = duree;
     }
 }

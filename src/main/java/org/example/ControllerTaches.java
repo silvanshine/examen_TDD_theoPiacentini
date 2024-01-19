@@ -15,7 +15,7 @@ public class ControllerTaches {
 
     public static void afficheTache(List<Tache> listTaches, String nom) {
         for (int i = 0; i < listTaches.size(); i++) {
-            if (listTaches.get(i).getNom().equals(nom)) {
+            if (listTaches.get(i).getTitre().equals(nom)) {
                 prettyPrintTache(listTaches.get(i), i + 1);
                 return;
             }

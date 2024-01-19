@@ -8,12 +8,17 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 
-;
-
+@SuppressWarnings("DuplicateExpressions")
 public class ControllerTachesTest {
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
+
+    /**
+     * Permet de rediriger la sortie standard vers un flux de sortie qu'on utilisera pour tester les sorties
+     * (System.out.println).
+     * Est exécuté avant chaque test.
+     */
     @BeforeEach
     public void setUp() {
         System.setOut(new PrintStream(outputStreamCaptor));

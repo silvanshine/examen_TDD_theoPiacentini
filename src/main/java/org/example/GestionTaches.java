@@ -1,7 +1,9 @@
 package org.example;
 
+import java.util.List;
+
 public class GestionTaches {
-    Projet projet;
+    final Projet projet;
 
     public GestionTaches(Projet projet) {
         this.projet = projet;
@@ -29,5 +31,9 @@ public class GestionTaches {
             }
         }
         return false;
+    }
+
+    public List<Tache> getTaches() {
+        return this.projet.getTaches();
     }
 }

@@ -3,7 +3,7 @@ package org.example;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ProjetTest {
+public class ProjetIntegrationTest {
 
     @Test
     void testVerifierTache() {
@@ -15,6 +15,8 @@ public class ProjetTest {
         Assertions.assertTrue(projet.verifierTache(expectedTacheTitle));
 
         Assertions.assertFalse(projet.verifierTache("tache inexistante"));
+
+        Assertions.assertEquals(projet.getTaches(), projet.getGestionTaches().getTaches());
 
     }
 
@@ -31,6 +33,8 @@ public class ProjetTest {
         Assertions.assertTrue(projet.getTaches().get(0).estCompletee);
 
         Assertions.assertFalse(projet.completerTache("tache inexistante"));
+
+        Assertions.assertEquals(projet.getTaches(), projet.getGestionTaches().getTaches());
     }
 
     @Test
@@ -41,5 +45,7 @@ public class ProjetTest {
         gestionTaches.ajouterTache("tache test", "description test");
 
         Assertions.assertEquals("tache test", gestionTaches.projet.getTaches().get(0).getTitre());
+
+        Assertions.assertEquals(projet.getTaches(), projet.getGestionTaches().getTaches());
     }
 }

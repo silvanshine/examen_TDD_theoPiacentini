@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="definition des objets de test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UtilsTest.java" afterDir="false" />
+    <list default="true" id="9c38d2bf-1a0b-4c29-ac8b-0c0361ce7ca0" name="Changes" comment="fin de la plupart des tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControllerTaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControllerTaches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GestionTaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GestionTaches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Projet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ControllertachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GestionTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GestionTachesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProjetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProjetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ControllerTachesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProjetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProjetIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.All in examen_TDD_theoPiacentini.executor": "Run",
     "JUnit.ControllerTachesTest.executor": "Run",
     "JUnit.ControllerTachesTest.testAfficheListeTaches.executor": "Run",
     "JUnit.ControllerTachesTest.testAfficheTache.executor": "Run",
@@ -53,6 +56,7 @@
     "JUnit.GestionTachesTest.testAjouterTache.executor": "Run",
     "JUnit.GestionTachesTest.testCompleterTache.executor": "Run",
     "JUnit.GestionTachesTest.testVerifierTache.executor": "Run",
+    "JUnit.ProjetTest.executor": "Run",
     "JUnit.ProjetTest.testVerifierTache.executor": "Run",
     "JUnit.UtilsTest.testCalculerDureeTotale.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -65,11 +69,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProjetTest">
+  <component name="RunManager" selected="JUnit.All in examen_TDD_theoPiacentini">
+    <configuration name="All in examen_TDD_theoPiacentini" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen_TDD_theoPiacentini" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ControllerTachesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen_TDD_theoPiacentini" />
       <extension name="coverage">
@@ -81,22 +94,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ControllerTachesTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControllerTachesTest.testAfficheListeTaches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="examen_TDD_theoPiacentini" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ControllerTachesTest" />
-      <option name="METHOD_NAME" value="testAfficheListeTaches" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjetIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen_TDD_theoPiacentini" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +123,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProjetTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ProjetIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjetTest.testVerifierTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjetIntegrationTest.testVerifierTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen_TDD_theoPiacentini" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProjetTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ProjetIntegrationTest" />
       <option name="METHOD_NAME" value="testVerifierTache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProjetTest" />
-        <item itemvalue="JUnit.ProjetTest.testVerifierTache" />
+        <item itemvalue="JUnit.All in examen_TDD_theoPiacentini" />
         <item itemvalue="JUnit.ControllerTachesTest" />
+        <item itemvalue="JUnit.ProjetIntegrationTest" />
+        <item itemvalue="JUnit.ProjetIntegrationTest.testVerifierTache" />
         <item itemvalue="JUnit.ControllerTachesTest.testAfficheTache" />
-        <item itemvalue="JUnit.ControllerTachesTest.testAfficheListeTaches" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,8 @@
       <workItem from="1705656743181" duration="1149000" />
       <workItem from="1705657919828" duration="1722000" />
       <workItem from="1705659664583" duration="1308000" />
-      <workItem from="1705662812654" duration="2270000" />
+      <workItem from="1705662812654" duration="2553000" />
+      <workItem from="1705667238192" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -195,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705658110781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fin de la plupart des tests">
+      <option name="closed" value="true" />
+      <created>1705666004787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705666004787</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +222,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="definition des objets de l'énoncé" />
     <MESSAGE value="definition des objets de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="definition des objets de test" />
+    <MESSAGE value="fin de la plupart des tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin de la plupart des tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
